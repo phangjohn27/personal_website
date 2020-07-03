@@ -1,0 +1,1 @@
+This project is meant to create a personal website using CSS, HTML, and Vanilla Javascript. It does not use React.js or any other framework. The idea is to create a website from this fundamental level first, understand it, and then from there recreate it by using advance technology such as react.js and others.
