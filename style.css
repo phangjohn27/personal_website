@@ -1,6 +1,9 @@
 body{
+    background-image: url("../pictures/kirby_n_soda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 30%;
     background-color: white;
-    
 }
 
 h1{
