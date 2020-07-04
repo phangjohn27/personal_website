@@ -7,12 +7,43 @@ body{
     background-attachment: fixed;
 }
 
+/*ul stands for unlisted list  */
+/*This is the beginning of creating my navigation bar */
 ul{
+    position: -webkit-sticky; /* Safari */
+    position: sticky; /*Allow me when my webpage scrolls the navigation bar follows too */
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 0;
+    overflow: hidden;
 }
 
+/* Place my navigation bar to the right */
+li{
+    float: right;
+}
+
+/* */
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*When your mouse cursor hover over one of the option it will highlight black */
+li a:hover{
+    background-color: black;
+}
+
+/*Tells me which option is active right now */
+.active{
+    background-color: #4CAF50
+}
+/* The end of my navigation bar creation*/
 
 h1{
     text-align: center;
