@@ -1,16 +1,26 @@
 body{
-    background-image: url("../pictures/kirby_n_soda.jpg");
+    background-image: url("../pictures/doggo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 30% 30%;
+    background-position: 10% 10%;
     background-color: white;
+    background-attachment: fixed;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 h1{
     text-align: center;
+    color: white;
 }
 
 p{
     text-align: center;
     font-size-adjust: 0.60;
+    color: white;
 }
