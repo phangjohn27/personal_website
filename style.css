@@ -3,10 +3,20 @@ html{
 }
 
 body{
-    background-image: url("../pictures/doggo.jpg");
+    background-image: url("../pictures/bits_falling.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+
+.center_face{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 25%;
+    height: 50%;
+    background-blend-mode: lighten;
 }
 
 /*ul stands for unlisted list  */
@@ -58,17 +68,37 @@ p{
     color: white;
 }
 
-
 #section1{
-    height: 600px;
-    background-color: black;
+    height: 1000px;
     color: white;
     text-align: center;
 }
 
 #section2{
-        height: 600px;
-    background-color: black;
+    height: 1000px;
     color: white;
     text-align: center;
+}
+
+#section3{
+    height: 1000px;
+    color: white;
+    text-align: center;
+}
+
+/* .About{
+    height: 1000px;
+    color: white;
+    text-align: center;
+}
+
+.Contact{
+    height: 1000px;
+    color: white;
+    text-align: center;
+} */
+
+
+.email{
+    color: green;
 }
