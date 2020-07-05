@@ -3,10 +3,11 @@ html{
 }
 
 body{
-    background-image: url("../pictures/bits_falling.jpg");
+    background-image: url("../pictures/chalk.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    
 }
 
 .center_face{
@@ -17,6 +18,16 @@ body{
     width: 25%;
     height: 50%;
     background-blend-mode: lighten;
+    /* opacity: 0.4; */
+}
+
+.center_face:hover{
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    -webkit-webkit: opacity 0.4;
+    -moz-webkit: opacity 0.4;
+    -ms-webkit: opacity 0.4;
+    -o-webkit: opacity 0.4;
 }
 
 /*ul stands for unlisted list  */
