@@ -7,7 +7,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
+    background-size: cover;
+}
+
+header{
+    font-size: 30px;
 }
 
 .center_face{
@@ -18,7 +22,6 @@ body{
     width: 25%;
     height: 50%;
     background-blend-mode: lighten;
-    /* opacity: 0.4; */
 }
 
 .center_face:hover{
@@ -28,6 +31,16 @@ body{
     -moz-webkit: opacity 0.4;
     -ms-webkit: opacity 0.4;
     -o-webkit: opacity 0.4;
+}
+
+.email{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.email:hover{
+    background-color:green;
 }
 
 /*ul stands for unlisted list  */
@@ -41,6 +54,7 @@ ul{
     padding: 0;
     top: 0;
     overflow: hidden;
+    font-size: 20px;
 }
 
 /* Place my navigation bar to the right */
@@ -108,8 +122,3 @@ p{
     color: white;
     text-align: center;
 } */
-
-
-.email{
-    color: green;
-}
